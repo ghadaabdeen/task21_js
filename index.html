@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        
+            <label style="font-size: 23px;">content:</label>
+            <input type="text"  id="content" style="padding: 5px 15px; "placeholder="add content">
+            <button id="add" onclick="add()" style="background-color: #286090; color: #fff; border-radius: 3px; border: none;padding: 7px 7px;">+Add</button>
+            <button onclick="edit()" id="update" style="display: none;background-color: #286090; color: #fff; border-radius: 3px; border: none;padding: 7px 7px;">update</button>
+            <table border="1" style="margin-left: 78px;width: 251px;margin-top: 20px;">
+                <tr>
+                    <th>content:</th>
+                </tr>
+                    <td><ol id=result></ol></td>
+            </table>
+            <input type="hidden" id="index">
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>
