@@ -34,4 +34,6 @@ function edit(){
     list[index]=content;
     view();
     var content=document.getElementById("content").value=null;
+    document.getElementById("update").style.display="none";
+    document.getElementById("add").style.display="inline-block";
 }
